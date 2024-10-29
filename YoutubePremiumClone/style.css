@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 *{
     margin: 0px;
     padding: 0px;
@@ -26,8 +27,9 @@
 }
 .CenNav > input{
     width: 50%;
-    padding: 6px;
-    border-radius: 20px;
+    padding: 7px 10px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
     background-color: black;
     border: none;
     border: 1px solid #303030;
@@ -35,4 +37,83 @@
 }
 .CenNav img:nth-child(2){
     background-color: #222222;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding: 3px 10px;
+}
+.CenNav img:nth-child(3){
+    margin-left: 20px;
+}
+.rightNav{
+    display: flex;
+    gap: 20px;
+}
+.rightNav img:nth-child(3){
+    width: 30px;
+    border-radius: 50%;
+}
+.ytpremium{
+    font-family: "Roboto", sans-serif;
+    display: flex;
+    height: 62%;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 80px;
+    gap:30px;
+}
+.yt2 > h1{
+    text-align: center;
+    font-weight: 300;
+    font-size: 32px;
+}
+.yt3{
+    text-align:center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+.yt3 > button{
+    padding:10px 15px;
+    border-radius: 20px;
+    border: none;
+    background-color: #3ea6ff;
+}
+.annual{
+    color: #76c4ff;
+}
+.yt3 p:nth-child(4){
+    color:#76c4ff;
+}
+.feature{
+    background-color: black;
+    color: white;
+    margin-top: 30px;
+    display: flex;
+    height:300px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+    font-family: "Roboto", sans-serif;
+}
+.feature div:nth-child(1),.feature div:nth-child(2),.feature div:nth-child(3){
+    width: 20%;
+    height: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.feature div:nth-child(1),.feature div:nth-child(2),.feature div:nth-child(3){
+    color: rgb(226,226,226,0.711);
+}
+.leftFea,.cenFea,.rightFea{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.leftFea > h2,.cenFea > h2,.rightFea > h2{
+    font-weight: 200;
+    color: white;
 }
