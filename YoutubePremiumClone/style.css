@@ -3,6 +3,7 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
 }
 .navbar{
     display: flex;
@@ -117,3 +118,88 @@
     font-weight: 200;
     color: white;
 }
+.bg1{
+    background-image: url("asset/bg1.jpeg");
+    height:400px;
+    background-size: cover;
+}
+.bg1 >div>h2{
+    font-size: 40px;
+    font-weight: 200;
+    color: white;
+}
+.bg1 >div>p{
+    font-size: 15px;
+    color: white;
+}
+.bg1>div{
+    padding: 170px 0 0 950px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+/* bg1 */
+.bg2{
+    background-image: url("asset/bg2.jpeg");
+    height:400px;
+    background-size: cover;
+}
+.bg2 >div>h2{
+    font-size: 40px;
+    font-weight: 200;
+    color: white;
+}
+.bg2 >div>p{
+    font-size: 15px;
+    color: white;
+}
+.bg2>div{
+    padding: 150px 0 0 350px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+/* bg3 */
+.bg3{
+    background-image: url("asset/bg3.jpeg");
+    height:400px;
+    background-size: cover;
+}
+.bg3 >div>h2{
+    font-size: 40px;
+    font-weight: 200;
+    color: white;
+}
+.bg3 >div>p{
+    font-size: 15px;
+    color: white;
+}
+.bg3>div{
+    padding: 170px 0 0 950px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+/* bg4 */
+.bg4{
+    background-image: url("asset/bg4.jpeg");
+    height:400px;
+    background-size: cover;
+}
+.bg4 >div>h2{
+    font-size: 40px;
+    font-weight: 200;
+    color: white;
+}
+.bg4 >div>p{
+    font-size: 15px;
+    color: white;
+}
+.bg4>div{
+    padding: 150px 0 0 350px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
