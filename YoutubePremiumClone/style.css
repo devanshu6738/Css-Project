@@ -201,5 +201,32 @@
     flex-direction: column;
     gap: 20px;
 }
-
-
+.faq{
+    background-color:#0F0F0F;
+    color: white;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.faqdetail{
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.drop{
+    display: flex;
+    justify-content: space-between;
+}
+hr{
+    opacity: 0.4;
+}
+.you{
+    color: #76c4ff;
+}
+.helpcenter>p{
+    font-size: 18px;
+    padding-left: 500px;
+}
